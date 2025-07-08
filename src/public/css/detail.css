@@ -1,0 +1,109 @@
+.detail-page{
+    display: flex;
+    gap: 30px;
+    width: 100%;
+    height: 100%;
+    padding: 70px 356px;
+    background-color: #F8F8F8;
+}
+.detail-page__heading{
+    color: #4B4B4B;
+}
+.detail-page__heading-product{
+    color: #0085FF;
+}
+.detail-page__area{
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+}
+.detail-page__area-left{
+    width: 374px;
+    height: 322px;
+}
+.detail-page__img{
+    width: 100%;
+}
+.detail-page__file-label{
+    width: 120px;
+    height: 31px;
+    border: 1px solid #4B4B4B;
+    background-color: #E0DFDE;
+    padding: 5px 10px;
+    font-size: 14px;
+    font-weight: 300;
+}
+.detail-page__file{
+    display: none;
+}
+.detail-page__area-right{
+    display: flex;
+    flex-direction: column;
+    width: 396px;
+    height: 291px;
+}
+.detail-page__group{
+    display: flex;
+    flex-direction: column;
+}
+.detail-page__label{
+    font-weight: 300;
+    font-size: 16px;
+    color: #4B4B4B;
+}
+.detail-page__input{
+    width: 396px;
+    height: 43px;
+    font-weight: 300;
+    font-size: 14px;
+    color: #4B4B4B;
+}
+.detail-page__season-inputs{
+    display: flex;
+    justify-content: space-around;
+    width: 70%;
+    color: #4B4B4B;
+}
+.detail-page__label{
+    font-weight: 300;
+    font-size: 16px;
+    color: #4B4B4B;
+}
+.detail-page__textarea{
+    width: 800px;
+    height: 160px;
+    border-radius: 5px;
+    border: 1px solid #E0DFDE;
+    padding: 11px 10px;
+    color: #4B4B4B;
+}
+.detail-page__btn{
+    text-align: center;
+}
+.detail-page__btn-back{
+    display: inline-block;
+    width: 240px;
+    height: 44px;
+    margin-right: 20px;
+    padding: 10px 13px;
+    text-decoration: none;
+    border-radius: 5px;
+    border: 1px solid #E0DFDE;
+    background-color: #E0DFDE;
+    font-size: 16px;
+    font-weight: 600;
+    text-align: center;
+    cursor: pointer;
+    color:#4B4B4B;
+}
+.detail-page__btn-update{
+    background-color: #F5C800;
+    border-color: #F5C800;
+    box-shadow: none;
+    color: #4B4B4B;
+}
+.detail-page__eeror-message{
+    font-weight: 300;
+    font-size: 14px;
+    color: #FD0707;
+}

@@ -1,0 +1,114 @@
+.register-page{
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    width: 100%;
+    height: 100%;
+    padding: 70px 40px;
+    background-color: #F8F8F8;
+}
+
+.register-page__header{
+    padding-left: 376px;
+}
+
+.register-page__inner{
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    width: 100%;
+    height: 930px;
+    padding: 0 376px;
+}
+.register-page__group{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+.register-page__group-title{
+    display: flex;
+    gap: 10px;
+}
+.register-page__label{
+    font-weight: 300;
+    font-size: 16px;
+    color: #4B4B4B;
+}
+.register-page__required{
+    padding: 0 5px;
+    width: 34px;
+    height: 18px;
+    background-color: #FD0707;
+    font-weight: 300;
+    font-size: 12px;
+    color: #FFFFFF;
+}
+.register-page__multiple{
+    font-size: 12px;
+    color: #FD0707;
+}
+.register-page__input{
+    width: 760px;
+    height: 43px;
+    border-radius: 5px;
+    border: 1px solid #E0DFDE;
+    padding: 11px 10px;
+}
+.register-page__file-label{
+    width: 118px;
+    height: 31px;
+    border: 1px solid #4B4B4B;
+    background-color: #E0DFDE;
+    padding: 5px 10px;
+    font-size: 14px;
+    font-weight: 300;
+}
+.register-page__file{
+    display: none;
+}
+
+.register-page__season-inputs{
+    display: flex;
+    justify-content: space-around;
+}
+.register-page__season-input{
+    border-radius: 50%;
+}
+.register-page__season-text{
+    font-weight: 300;
+    font-size: 16px;
+    color: #4B4B4B;
+}
+.register-page__textarea{
+    width: 760px;
+    height: 160px;
+    border-radius: 5px;
+    border: 1px solid #E0DFDE;
+    padding: 11px 10px;
+}
+
+.register-page__btn-back{
+    display: inline-block;
+    width: 240px;
+    height: 44px;
+    padding: 10px 13px;
+    text-decoration: none;
+    border-radius: 5px;
+    border: 1px solid #E0DFDE;
+    background-color: #E0DFDE;
+    font-size: 16px;
+    font-weight: 600;
+    text-align: center;
+    cursor: pointer;
+    color:#4B4B4B;
+}
+.register-page__btn{
+    background-color: #F5C800;
+    border-color: #F5C800;
+    box-shadow: none;
+}
+.register-page__eeror-message{
+    color: #FD0707;
+    font-weight: 300;
+    font-size: 14px;
+}

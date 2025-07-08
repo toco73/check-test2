@@ -1,3 +1,140 @@
+.product-page{
+    width: 100%;
+    height: 100%;
+    padding: 70px 40px;
+    background-color: #F8F8F8;
+}
+
+.product-page__header{
+    display: flex;
+    justify-content: space-between;
+}
+.product-page__heading-inner{
+    margin-top: 0;
+}
+.product-page__form-inner{
+    margin-top: 19.92px;
+}
+.product-page__add-btn{
+    padding: 13px 20px;
+    background-color: #FFA929;
+    border: #FFA929;
+    border-radius: 5px;
+    font-size: 16px;
+}
+
+.product-form__inner{
+    display: flex;
+    justify-content: center;
+    gap: 40px;
+}
+.product-form__area{
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+    width: 240px;
+    height: 328px;
+    border-bottom: 1px solid #E0DFDE;
+}
+.product-form__area-search{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+.product-form__input{
+    width: 240px;
+    height: 50px;
+    padding-left: 10px;
+    border-radius: 25px;
+    border: 1px solid #E0DFDE;
+    font-size: 14px;
+}
+.product-form__search-btn{
+    background-color: #FFA929;
+    border: #FFA929;
+}
+
+.product-form__area-sort{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+.product-form__label{
+    font-weight: 600;
+    font-size: 20px;
+    color: #333333;
+}
+.product-form__select{
+    padding: 11px 10px;
+    border: 1px solid #E0DFDE;
+    border-radius: 5px;
+    width: 240px;
+    height: 43px;
+    color: #E0DFDE;
+}
+.product-form__select-item{
+    display: flex;
+    justify-content: space-around;
+    width: 130px;
+    height: 41px;
+    border: 1px solid #F5C800;
+    border-radius: 21px;
+    padding: 10px;
+    font-size: 14px;
+    color: #4B4B4B;
+}
+.product-form__select-dlete{
+    text-decoration: none;
+    border: 1px solid #F5C800;
+    border-radius: 8px;
+    width: 16px;
+    height: 16px;
+    color: #F5C800;
+}
+
+.product-card__area{
+    width: 1162px;
+    height: 70px;
+}
+.product-card__inner{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+.product-card__group{
+    width: 350px;
+    height: 350px;
+}
+.product-card__group a{
+    text-decoration: none;
+}
+.product-card__img{
+    width: 100%;
+    height: 80%;
+}
+.product-card__body{
+    display: flex;
+    justify-content: space-between;
+    background-color: #FFFFFF;
+    height: 70px;
+}
+.product-card__name{
+    padding-left: 20px;
+    color: #4B4B4B;
+}
+.product-card__price{
+    padding-right: 20px;
+    
+    color: #4B4B4B;
+}
+
+
+
+
+
+
+
+
 .product-card__group{
     box-shadow: 1px 1px 1px #0000001A;
 }
