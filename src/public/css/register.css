@@ -73,6 +73,7 @@
 }
 .register-page__season-input{
     border-radius: 50%;
+    width: 100%;
 }
 .register-page__season-text{
     font-weight: 300;

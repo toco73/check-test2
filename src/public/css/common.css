@@ -22,10 +22,11 @@ input::placeholder {
     font-family: jsMath-cmti10;
     src: url('../fonts/jsMath-cmsy10.ttf') format('truetype');
 }
-.header__heading{
+.header__heading-logo{
     color: #F5C800;
     font-size: 30px;
     font-style: italic;
+    text-decoration: none;
 }
 
 /*コンテンツ*/

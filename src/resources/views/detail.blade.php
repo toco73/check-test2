@@ -16,18 +16,18 @@
             @csrf
             <div class="detail-page__area">
                 <div class="detail-page__area-left">
-                    <div class="detail-page__group">
-                        <img class="detail-page__img" src="{{asset('storage/' . $product->image)}}" alt="{{$product->name}}">
-                        <label class="detail-page__file-label">
-                            ファイルを選択
-                            <input class="detail-page__file" type="file" name="image" id="image" value="{{old('image')}}">
-                        </label>
-                        <p class="detail-page__eeror-message">
-                            @error('image')
-                            {{$message}}
-                            @enderror
-                        </p>
-                    </div>
+                    
+                    <img class="detail-page__img" src="{{asset('storage/' . $product->image)}}" alt="{{$product->name}}">
+                    <label class="detail-page__file-label">
+                        ファイルを選択
+                        <input class="detail-page__file" type="file" name="image" id="image" value="{{old('image')}}">
+                    </label>
+                    <p class="detail-page__eeror-message">
+                        @error('image')
+                        {{$message}}
+                        @enderror
+                    </p>
+                    
                 </div>
                 <div class="detail-page__area-right">
                     <div class="detail-page__group">

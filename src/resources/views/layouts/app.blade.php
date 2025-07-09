@@ -13,7 +13,10 @@
 <body>
     <div class="app">
         <header class="header">
-            <h1 class="header__heading">Mogitate</h1>
+            <h1 class="header__heading">
+                <a class="header__heading-logo"
+                href="/products">Mogitate</a>
+            </h1>
         </header>
         <div class="content">
             @yield('content')
